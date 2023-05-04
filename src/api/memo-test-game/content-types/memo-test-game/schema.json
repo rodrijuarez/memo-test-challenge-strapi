@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "memo_test_games",
+  "info": {
+    "singularName": "memo-test-game",
+    "pluralName": "memo-test-games",
+    "displayName": "memo_test_game"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pairs": {
+      "type": "json"
+    }
+  }
+}
