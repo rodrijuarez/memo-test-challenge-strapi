@@ -2,6 +2,21 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
+### Renaming `.env.example` to `.env`
+
+Rename `.env.example` to `.env`
+```bash 
+mv .env.example .env
+```
+
+
+### `import`
+
+Data import with test data for the project
+```bash 
+npm run strapi import -- -f ./database/export.tar.gz
+```
+
 ### `develop`
 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
