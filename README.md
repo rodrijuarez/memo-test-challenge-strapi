@@ -10,9 +10,9 @@ yarn install
 
 ### Renaming `.env.example` to `.env`
 
-Rename `.env.example` to `.env`
+Copy `.env.example` to `.env`
 ```bash 
-mv .env.example .env
+cp .env.example .env
 ```
 
 
